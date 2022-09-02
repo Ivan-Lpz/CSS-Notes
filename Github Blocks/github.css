@@ -1,0 +1,42 @@
+.main-container {
+  background-color: lightgray;
+  height: 850px;
+  width: 950px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  align-self: center;
+}
+
+.row-container {
+  height: 200px;
+  width: 850px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: aqua;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.row-container img {
+  width: 150px;
+  height: 150px;
+}
+
+#second-row {
+  background-color: pink;
+
+}
+
+#third-row {
+  background-color: white;
+}
+
