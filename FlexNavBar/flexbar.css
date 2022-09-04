@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(93, 93, 93);
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+li {
+  display: flex;
+}
+
+li a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+}
+
+.nav-title {
+  margin-left: 15px;
+  color: white;
+  font-family: Roboto;
+}
+
+.btn {
+  background-color: rgb(1, 243, 243);
+  color: white;
+  height: 35px;
+  width: 85px;
+  box-shadow: 3px 3px black;
+  border: 2px solid black;
+  font-family: Roboto;
+  margin-top: 5px;
+}
