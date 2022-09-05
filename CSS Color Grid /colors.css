@@ -1,0 +1,36 @@
+.container {
+  height: 950px;
+  width: 950px;
+  background-color: lightgray;
+  padding-top: 15px;
+}
+
+.top-nav {
+  width: 900px;
+  background-color: green;
+  height: 150px;
+  margin-left: 25px;
+}
+
+.side-nav {
+  background-color: blue;
+  height: 275px;
+  width: 175px;
+  margin-top: 15px;
+  margin-left: 25px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.main {
+  background-color: red;
+  width: 715px;
+  height: 355px;
+  display: inline-block;
+  margin-top: 20px;
+  vertical-align: top;
+}
+
+
+

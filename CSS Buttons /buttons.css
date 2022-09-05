@@ -1,0 +1,52 @@
+.search-container {
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.search-button {
+  color:rgb(0, 213, 203);
+  background-color: rgb(240, 240, 240);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 25px;
+  border-color:rgb(0, 213, 203);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+}
+
+.plus-container {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.plus-button {
+  background-color:rgb(0, 213, 203);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  padding-top: 1px;
+}
+
+.account-container {
+  margin-top: 12px;
+  margin-left: 60px;
+}
+
+.create-account-button {
+  font-size: 15px;
+  color:white;
+  background-color: rgb(0, 151, 251);
+  border-color:black;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  box-shadow: 2px 3px black;
+}
+
+
+
