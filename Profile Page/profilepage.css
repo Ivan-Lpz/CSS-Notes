@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.main-container {
+  background-color: rgb(255, 255, 255);
+  width: 900px;
+  height: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+
+.header-container {
+  width: 900px;
+  height: 100px;
+  background-color: rgb(245, 2, 2);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(93, 93, 93);
+  align-items: center;
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+li {
+  display: flex;
+}
+
+li a {
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-title {
+  margin-left: 15px;
+  color: white;
+}
+
+.btn {
+  background-color: rgb(1, 243, 243);
+  color: white;
+  height: 35px;
+  width: 85px;
+  box-shadow: 3px 3px black;
+  border: 2px solid black;
+  margin-top: 5px;
+}
+
+.row-container {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+.left-main-container {
+  background-color: rgb(255, 255, 255);
+  height: 730px;
+  width: 450px;
+}
+
+.user-card-container {
+  background-color: white;
+  width: 450px;
+  height: 400px;
+  border: 3px solid rgb(190, 190, 190);
+  }
+
+.heading-strip {
+  width: 450px;
+  height: 100px;
+  background-color: aqua;
+}
+
+.Jane-Doe-Header {
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.location-row {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.location-icon {
+  height: 20px;
+  width: 15px;
+  margin-left: 10px;
+}
+
+.location {
+  margin-left: 8px;
+  font-size: 20px;
+}
+
+.user-info {
+  margin-left: 40px;
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.edit-profile-row { 
+  display: flex;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.gear-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.edit-profile {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.user-circle {
+  width: 95px;
+  height: 95px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+
+.education-container {
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 250px;
+  margin-top: 80px;
+  border: 3px solid rgb(190, 190, 190);
+  }
+
+  .education-strip {
+  background-color: rgb(47, 47, 47);
+  width: 450px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  }
+
+  .education-header {
+    font-size: 25px;
+    margin-left: 40px;
+    color: white;
+  }
+
+  .education-content-header {
+  margin-left: 40px;
+  margin-top: 15px;
+  }
+
+  .Dates {
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  }
+
+  .belt-titles {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 20px;
+  }
+
+  .right-main-container {
+  background-color: rgb(255, 255, 255);
+  height: 730px;
+  width: 300px;
+  }
+
+  .connection-requests {
+  background-color: white;
+  width: 300px;
+  height: 250px;
+  border: 3px solid rgb(190, 190, 190);
+  }
+
+  .requests-strip {
+  width: 300px;
+  height: 65px;
+  background-color: rgb(47, 47, 47);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  }
+
+  .connection-requests-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 15px;
+    font-size: 18px;
+  }
+
+  .connection-requests-header {
+    margin: 15px;
+    font-size: 25px;
+  }
+
+  .todd-row {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .todd-pic {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+
+  .todd-text {
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 20px;
+  }
+  
+  .checkmark-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+
+  .x-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .phil-text {
+  margin-left: 25px;
+  margin-top: 25px;
+  font-size: 20px;
+  }
+
+  .checkmark-icon-phil {
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+
+  .x-icon-phil {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .your-connections {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    margin-top: 80px;
+    border: 3px solid rgb(190, 190, 190);
+    }
+
+    .connections-strip {
+    width: 300px;
+    height: 65px;
+    background-color: rgb(47, 47, 47);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    }
+  
+    .your-connections-header {
+      margin: 15px;
+      font-size: 25px;
+    }
+  
+    .your-connections-button {
+      width: 55px;
+      height: 32px;
+      border-radius: 50%;
+      border: none;
+      margin-left: 15px;
+      font-size: 18px;
+    }
+
+    .staff-row {
+      display: flex;
+      margin-top: 15px;
+      background-color: rgb(255, 255, 255);
+      height: 55px;
+      width: 300px;
+    }
+
+    .adrien-pic {
+      width: 50px;
+      height: 50px;
+      margin-left: 20px;
+      margin-bottom: 100px;
+      border-radius: 50%;
+    }
+
+    .staff-name {
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 20px;
+    }
+
+    .view-more-row {
+      background-color: rgb(255, 255, 255);
+      margin-top: 1px;
+      height: 50px;
+      border: 2px solid rgb(190, 190, 190);
+      display: flex;
+      align-items: center;
+    }
+
+    .view-more {
+      margin-left: 20px;
+      font-size: 20px;
+    }
+
+
+
+
+
